@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<PrintLayout
+  bodyFont="Amatic SC"
+  fonts={
+    Array [
+      Object {
+        "family": "Baloo Bhaina",
+        "importName": "Baloo+Bhaina",
+      },
+      Object {
+        "family": "Pacifico",
+        "importName": "Pacifico",
+      },
+      Object {
+        "family": "Amatic SC",
+        "importName": "Amatic+SC",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <style>
+      html, body, #root, #app, #react-root { height: 100%; margin: 0; padding: 0; }
+    </style>
+    <style>
+      ::-webkit-scrollbar { display: none; }
+    </style>
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+    </style>
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Pacifico';
+    </style>
+    <style>
+      @import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+    </style>
+    <style>
+      body { font-family: Amatic SC, sans-serif; }
+    </style>
+    <h1
+      style={
+        Object {
+          "fontFamily": "Baloo Bhaina",
+        }
+      }
+    >
+      Baloo Bhaina - Mist enveloped the ship three hours out from port.
+    </h1>
+    <h1
+      style={
+        Object {
+          "fontFamily": "Pacifico",
+        }
+      }
+    >
+      Pacifico - Mist enveloped the ship three hours out from port.
+    </h1>
+    <h1>
+      Body font - Amatic SC - Mist enveloped the ship three hours out from port.
+    </h1>
+  </div>
+</PrintLayout>
+`;
